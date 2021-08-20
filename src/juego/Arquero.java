@@ -17,6 +17,7 @@ public class Arquero extends Unidad {
 				otraUnidad.setSalud(otraUnidad.getSalud() - DANIO_DE_GOLPE);
 			}
 			
+			
 		}
 
 }

@@ -24,6 +24,8 @@ public abstract class Unidad {
 		}
 	}
 	
+	public void moverUnidad()
+	
 
 	public Posicion getUbicacion() {
 		return ubicacion;
