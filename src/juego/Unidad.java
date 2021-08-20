@@ -1,9 +1,10 @@
 package juego;
 
-public class Unidad {
+public abstract class Unidad {
 	
 	protected Posicion ubicacion;
 	private int salud;
+	private int oro;
 	
 	static final int DANIO_DE_GOLPE = 10;
 	static final int SALUD_INICIAL= 100;
