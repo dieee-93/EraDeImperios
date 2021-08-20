@@ -20,6 +20,7 @@ public abstract class Unidad {
 		
 		if (estaCerca) {
 			otraUnidad.setSalud(otraUnidad.getSalud() - DANIO_DE_GOLPE);
+			this.experiencia += 5;
 		}
 	}
 	
