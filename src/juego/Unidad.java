@@ -4,8 +4,8 @@ public abstract class Unidad {
 	
 	protected Posicion ubicacion;
 	private int salud;
-	private int oro;
-	private int experiencia;
+	private int oro = 0;
+	private int experiencia = 0;
 
 	static final int DANIO_DE_GOLPE = 10;
 	static final int SALUD_INICIAL= 100;
@@ -23,8 +23,6 @@ public abstract class Unidad {
 			this.experiencia += 5;
 		}
 	}
-	
-	public void moverUnidad()
 	
 
 	public Posicion getUbicacion() {
